@@ -39,21 +39,29 @@ body {
 .schedHeader {
   color: #e89440;
   font-family: "Gilroy-Bold";
-  padding: 0 0 0 20px;
+  padding-left: 3rem;
   max-width: 50vw;
+  font-size: 2rem;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 .text {
   color: white;
-  font-family: "Gilroy-Bold";
-  padding: 0 0 0 20px;
+  font-family: "Gilroy-Medium";
+  padding-left: 3rem;
   max-width: 50vw;
+  font-size: 1.25rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 .projTitle {
   color: #ea5400;
-  font-family: "Gilroy-Bold";
-  padding: 0 0 0 20px;
+  font-family: "Gilroy-Medium";
+  padding-left: 3rem;
   max-width: 50vw;
+  font-size: 1.25rem;
 }
 
 .header {
@@ -63,8 +71,9 @@ body {
 }
 
 .tab {
-  display: inline-block;
-  margin-left: 4em;
+  display: block;
+  margin-left: 4rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Mobile breakpoint */
@@ -73,5 +82,13 @@ body {
   .text,
   .schedHeader {
     max-width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .tab {
+    font-size: 1rem;
   }
 }

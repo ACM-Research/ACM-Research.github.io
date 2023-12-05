@@ -40,8 +40,9 @@
 .projHeader {
   color: #ea5400;
   font-family: "Gilroy-Bold";
-  padding: 0 0 0 20px;
   text-align: center;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .summaryContainer {
@@ -55,6 +56,7 @@
   color: white;
   font-family: "Gilroy-Light";
   font-size: 1.25rem;
+  margin: 0;
 }
 
 .bold {
@@ -83,6 +85,9 @@
 @media (max-width: 768px) {
   .projEntry {
     flex-direction: column-reverse;
+  }
+  .projHeader {
+    margin-top: 2rem;
   }
   .researchLeadImage {
     width: 100px;
