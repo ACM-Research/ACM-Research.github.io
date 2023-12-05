@@ -19,14 +19,12 @@
 body {
   margin: 0;
   background-color: #221613;
-  overflow: hidden;
 }
 
 .module-border-wrap {
   position: relative;
   align-items: center;
   overflow-y: auto;
-  overflow-x: hidden;
   height: 100vh; /* Ensure the body takes up the full viewport height */
   box-sizing: border-box;
   border: 10px solid transparent; /* Set a transparent solid border */
@@ -67,4 +65,13 @@ body {
 .tab {
   display: inline-block;
   margin-left: 4em;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+  .projTitle,
+  .text,
+  .schedHeader {
+    max-width: 100%;
+  }
 }

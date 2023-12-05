@@ -154,9 +154,9 @@ real-world issue to explore, then use XAI to examine and improve that model."
         the concealed content. Afterward, you will train a machine learning model to classify images that contain hidden information."
       />
 
+      <hr />
       <h1 className="header">Intermission</h1>
       <hr />
-      <br />
 
       <Entry
         src={Anish}

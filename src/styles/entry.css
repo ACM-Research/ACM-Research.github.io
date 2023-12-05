@@ -34,6 +34,7 @@
   align-self: center;
   text-align: center;
   margin-right: 2rem;
+  font-size: 1.1rem;
 }
 
 .projHeader {
@@ -53,6 +54,7 @@
 .summary {
   color: white;
   font-family: "Gilroy-Light";
+  font-size: 1.25rem;
 }
 
 .bold {
@@ -76,4 +78,32 @@
   font-family: "Gilroy-Light";
   margin-top: -2rem; /* Adjust the spacing between image and participants list */
   margin-left: 50px; /* Adjust the spacing between image and participants list */
+}
+
+@media (max-width: 768px) {
+  .projEntry {
+    flex-direction: column-reverse;
+  }
+  .researchLeadImage {
+    width: 100px;
+    margin-right: 5px;
+    border-radius: 30px;
+    padding: 1rem;
+  }
+  .researchLeadCaption {
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: 0.8rem;
+  }
+  .leftGroup {
+    width: unset;
+    align-self: flex-start;
+  }
+  .summary {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .summaryContainer {
+    padding-right: 1rem;
+  }
 }

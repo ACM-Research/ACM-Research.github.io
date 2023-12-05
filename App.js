@@ -1,11 +1,7 @@
-import {Main} from "./src/frontend/main.js";
+import { Main } from "./src/frontend/main.js";
 
 function App() {
-  return (
-    <div>
-      <Main></Main>
-    </div>
-  );
+  return <Main></Main>;
 }
 
 export default App;
