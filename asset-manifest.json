@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.77b21a32.css",
-    "main.js": "/static/js/main.380e392e.js",
+    "main.js": "/static/js/main.eafe52a6.js",
     "static/media/banner-final.png": "/static/media/banner-final.1824820bb59cbccf7233.png",
     "static/media/Victoria.jpg": "/static/media/Victoria.347966a137ab0877432a.jpg",
     "static/media/mr-peechi.png": "/static/media/mr-peechi.d8323ce367208fa0d2dc.png",
@@ -19,10 +19,10 @@
     "static/media/Philip.png": "/static/media/Philip.cc62669324184db56d42.png",
     "index.html": "/index.html",
     "main.77b21a32.css.map": "/static/css/main.77b21a32.css.map",
-    "main.380e392e.js.map": "/static/js/main.380e392e.js.map"
+    "main.eafe52a6.js.map": "/static/js/main.eafe52a6.js.map"
   },
   "entrypoints": [
     "static/css/main.77b21a32.css",
-    "static/js/main.380e392e.js"
+    "static/js/main.eafe52a6.js"
   ]
 }
