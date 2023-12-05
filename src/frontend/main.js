@@ -14,6 +14,7 @@ import Rowan from '../assets/Leads/Rowan.png';
 import Saanvi from '../assets/Leads/Saanvi.png';
 import Victoria from '../assets/Leads/Victoria.jpg';
 import Vivi from '../assets/Leads/Vivi.png';
+import MrPeechi from '../assets/mr-peechi.png';
 
 export const Main = () => {
     return (
@@ -50,6 +51,9 @@ export const Main = () => {
                 </div>
                 <p className="text">10:20 pm - 10:30 pm → Judge Deliberation + Winner Announcement</p>
                 <p className="text">10:30 pm Onward → Poster Walk</p>
+            </div>
+            <div className="peechi">
+                <img src={MrPeechi} alt="Mr. Peechi" className="peechi-img" />
             </div>
 
             <Entry
