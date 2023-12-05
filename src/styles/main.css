@@ -1,112 +1,70 @@
 @font-face {
-    font-family: 'Gilroy-Bold';
-    src: local('Gilroy-Bold'), url(../fonts/Gilroy_Font_Family/Gilroy-Bold.ttf) format('truetype');
-  }
-  
-  @font-face {
-    font-family: 'Gilroy-Medium';
-    src: local('Gilroy-Medium'), url(../fonts/Gilroy_Font_Family/Gilroy-Medium.ttf) format('truetype');
-  }
-  
-  @font-face {
-    font-family: 'Gilroy-Light';
-    src: local('Gilroy-Light'), url(../fonts/Gilroy_Font_Family/Gilroy-Light.ttf) format('truetype');
-  }
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold"),
+    url(../fonts/Gilroy_Font_Family/Gilroy-Bold.ttf) format("truetype");
+}
 
-body{
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: local("Gilroy-Medium"),
+    url(../fonts/Gilroy_Font_Family/Gilroy-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: local("Gilroy-Light"),
+    url(../fonts/Gilroy_Font_Family/Gilroy-Light.ttf) format("truetype");
+}
+
+body {
   margin: 0;
   background-color: #221613;
   overflow: hidden;
 }
 
 .module-border-wrap {
-  position: relative;  
+  position: relative;
   align-items: center;
   overflow-y: auto;
+  overflow-x: hidden;
   height: 100vh; /* Ensure the body takes up the full viewport height */
   box-sizing: border-box;
   border: 10px solid transparent; /* Set a transparent solid border */
-  border-image: linear-gradient(to top, #ff7e5f, #feb47b); /* Define your gradient */
+  border-image: linear-gradient(
+    to top,
+    #ff7e5f,
+    #feb47b
+  ); /* Define your gradient */
   border-image-slice: 1; /* Ensure the entire border is filled with the gradient */
-  }
-  
-  .schedHeader{
-    color: #e89440;
-    font-family: 'Gilroy-Bold';
-    padding: 0 0 0 20px;
-    max-width: 50vw;
-  }
-  .text{
-    color: white;
-    font-family: 'Gilroy-Bold';
-    padding: 0 0 0 20px;
-    max-width: 50vw;
-  }
-  .projTitle{
-    color: #EA5400;
-    font-family: 'Gilroy-Bold';
-    padding: 0 0 0 20px;
-    max-width: 50vw;
-  }
-  .projHeader{
-    color: #EA5400;
-    font-family: 'Gilroy-Bold';
-    padding: 0 0 0 20px;
-    text-align: center;
-  }
-  .header{
-    color: #fff;
-    font-family: 'Gilroy-Medium';
-    text-align: center;
-  }
-  
-  .tab {
-    display: inline-block;
-    margin-left: 4em;
 }
 
-.imgContainer{
-  display: flex;
-  justify-content: left;
-  align-items: center;
+.schedHeader {
+  color: #e89440;
+  font-family: "Gilroy-Bold";
+  padding: 0 0 0 20px;
+  max-width: 50vw;
+}
+.text {
+  color: white;
+  font-family: "Gilroy-Bold";
+  padding: 0 0 0 20px;
   max-width: 50vw;
 }
 
-.researchLeadImage {
-  width: 150px; /* Adjust the width of the research lead image */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 5px; /* Adjust the spacing between image and participants list */
-  border-radius: 50px;
-  padding: 2.5rem;
-}
-
-.researchLeadCaption {
-  display: flex;
-  flex-direction: column; /* Display captions in a column */
-  color: white;
-  font-family: 'Gilroy-Bold';
-  margin-top: -2rem; /* Adjust the spacing between image and participants list */
-  margin-left: 50px; /* Adjust the spacing between image and participants list */
-}
-
-.participantsList {
-  flex-direction: column;
-  flex-wrap: wrap;
-  color: white;
-  font-family: 'Gilroy-Medium';
-  transform: translate(15rem, -15rem); /* Adjust the spacing between image and participants list */
+.projTitle {
+  color: #ea5400;
+  font-family: "Gilroy-Bold";
+  padding: 0 0 0 20px;
   max-width: 50vw;
-  padding: -3rem;
 }
 
-.summaryContainer{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  max-width: 50vw;
-  transform: translate(30rem, -24rem); /* Adjust the spacing between image and participants list */
+.header {
+  color: #fff;
+  font-family: "Gilroy-Medium";
+  text-align: center;
 }
-.summary{
-  color: white;
-  font-family: 'Gilroy-Light';
+
+.tab {
+  display: inline-block;
+  margin-left: 4em;
 }

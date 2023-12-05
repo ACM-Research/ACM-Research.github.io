@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <img className="banner" src={banner} alt="Banner" />
-      <p className="title">ACM Research Symposium Fall 2023</p>
+      <div className="title-container">
+        <p className="title">ACM Research Symposium Fall 2023</p>
+      </div>
     </nav>
   );
 };

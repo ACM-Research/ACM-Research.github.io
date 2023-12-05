@@ -1,0 +1,79 @@
+.projEntry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.leftGroup {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  width: 30rem;
+}
+
+.leadGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.participantsList {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  height: max-content;
+  font-family: "Gilroy-Medium";
+  flex-basis: 12rem;
+  flex-shrink: 0;
+  align-self: center;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.projHeader {
+  color: #ea5400;
+  font-family: "Gilroy-Bold";
+  padding: 0 0 0 20px;
+  text-align: center;
+}
+
+.summaryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  padding-right: 2rem;
+}
+.summary {
+  color: white;
+  font-family: "Gilroy-Light";
+}
+
+.bold {
+  font-family: "Gilroy-Bold";
+}
+
+/* JIWEFNIUW$ENGIUWNGIUWNGIUWNGFIUWENIUWGWWGWwwwwgwigwiwiurhfiuwehnf */
+
+.researchLeadImage {
+  width: 150px; /* Adjust the width of the research lead image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; /* Adjust the spacing between image and participants list */
+  border-radius: 50px;
+  padding: 2.5rem;
+}
+
+.researchLeadCaption {
+  display: flex;
+  flex-direction: column; /* Display captions in a column */
+  color: white;
+  font-family: "Gilroy-Light";
+  margin-top: -2rem; /* Adjust the spacing between image and participants list */
+  margin-left: 50px; /* Adjust the spacing between image and participants list */
+}
