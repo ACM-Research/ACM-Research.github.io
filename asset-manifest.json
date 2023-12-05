@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f4b632b.css",
+    "main.js": "/static/js/main.5c32a52f.js",
+    "static/media/banner-final.png": "/static/media/banner-final.1824820bb59cbccf7233.png",
+    "static/media/Victoria.jpg": "/static/media/Victoria.347966a137ab0877432a.jpg",
+    "static/media/Gilroy-Light.ttf": "/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
+    "static/media/Gilroy-Medium.ttf": "/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
+    "static/media/Gilroy-Bold.ttf": "/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
+    "static/media/Naveen.png": "/static/media/Naveen.3fd59db2a4c88d15413d.png",
+    "static/media/Rowan.png": "/static/media/Rowan.cefe90082e14949d4ba7.png",
+    "static/media/Anish.png": "/static/media/Anish.282ed952fa2d69f1076a.png",
+    "static/media/Nivedha.png": "/static/media/Nivedha.bb3c964e1df934b2939d.png",
+    "static/media/Rishit.png": "/static/media/Rishit.e7b2516fd2ba2545d91c.png",
+    "static/media/Rohan.png": "/static/media/Rohan.803aa02c970684893c3c.png",
+    "static/media/Vivi.png": "/static/media/Vivi.2000b3f8e3663f01707a.png",
+    "static/media/Saanvi.png": "/static/media/Saanvi.a4945eaa77f45830113a.png",
+    "static/media/Philip.png": "/static/media/Philip.cc62669324184db56d42.png",
+    "index.html": "/index.html",
+    "main.0f4b632b.css.map": "/static/css/main.0f4b632b.css.map",
+    "main.5c32a52f.js.map": "/static/js/main.5c32a52f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f4b632b.css",
+    "static/js/main.5c32a52f.js"
+  ]
+}
