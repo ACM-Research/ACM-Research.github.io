@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f4b632b.css",
-    "main.js": "/static/js/main.5c32a52f.js",
+    "main.css": "/static/css/main.77b21a32.css",
+    "main.js": "/static/js/main.380e392e.js",
     "static/media/banner-final.png": "/static/media/banner-final.1824820bb59cbccf7233.png",
     "static/media/Victoria.jpg": "/static/media/Victoria.347966a137ab0877432a.jpg",
+    "static/media/mr-peechi.png": "/static/media/mr-peechi.d8323ce367208fa0d2dc.png",
     "static/media/Gilroy-Light.ttf": "/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
     "static/media/Gilroy-Medium.ttf": "/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
     "static/media/Gilroy-Bold.ttf": "/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
@@ -17,11 +18,11 @@
     "static/media/Saanvi.png": "/static/media/Saanvi.a4945eaa77f45830113a.png",
     "static/media/Philip.png": "/static/media/Philip.cc62669324184db56d42.png",
     "index.html": "/index.html",
-    "main.0f4b632b.css.map": "/static/css/main.0f4b632b.css.map",
-    "main.5c32a52f.js.map": "/static/js/main.5c32a52f.js.map"
+    "main.77b21a32.css.map": "/static/css/main.77b21a32.css.map",
+    "main.380e392e.js.map": "/static/js/main.380e392e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f4b632b.css",
-    "static/js/main.5c32a52f.js"
+    "static/css/main.77b21a32.css",
+    "static/js/main.380e392e.js"
   ]
 }
